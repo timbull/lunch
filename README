@@ -1,0 +1,4 @@
+== README ==
+
+A simple project I created to help learn some basics of rails. The goal is to run our "Lunch Lottery" - once a week we pull random pairs of names and set people off on lunch together.  This helps the team get to know each other.
+
