@@ -1,1 +1,18 @@
-<p>Welcome</p>
+<p>Welcome to the Lunch Lottery manager</p>
+<ol>
+  <li>Add all users into the database using "manage".  Check the Active status and make sure that's correct.</li>
+  <li>Hit "Generate" to build the list of matches for this week.</li>
+</ol>
+<h2>About Lunch Lottery</h2>
+<p>
+The lunch lottery uses the following algorithm to generate the matches:
+</p>
+<ul>
+  <li>A list of "active" people is built in memory.</li>
+  <li>The total "available matches" is built for each user on the list. An "available match" is the number of people
+    the person could be paired with.</li>
+  <li>People are ordered by "available match" in ascending order. The person with lowest matches is matched first.</li>
+  <li>As a match is found for each person, the person they are matched to is removed from the list of active people in
+  memory</li>
+  <li>The last person matched is deemed a "wild card" and is randomly allocated to an existing pair</li>
+</ul>

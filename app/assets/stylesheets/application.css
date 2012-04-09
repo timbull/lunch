@@ -24,7 +24,7 @@ html,body
 
 #main
 {
-    padding-top: 100px;
+    padding-top: 50px;
     overflow:auto;
     padding-bottom:150px; /* this needs to be bigger than footer height*/
 }
@@ -38,4 +38,5 @@ html,body
     padding-top:20px;
     color:#fff;
 }
+
 
