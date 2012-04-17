@@ -1,0 +1,15 @@
+<h1>Lunch Lottery Draw</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Pair</th>
+  </tr>
+
+  <% @new_draw.generate.each do |person| %>
+      <tr>
+        <td><%= person.name %></td>
+        <td><%= person.active %></td>
+      </tr>
+  <% end %>
+</table>

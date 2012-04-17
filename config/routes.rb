@@ -1,5 +1,6 @@
 Lunch::Application.routes.draw do
   resources :people
+  resources :lottery
 
   get "home/index"
 
